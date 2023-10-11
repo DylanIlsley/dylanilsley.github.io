@@ -49,16 +49,12 @@
         // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
         // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
       });
-
       // Add the provided JavaScript code below
       document.addEventListener('wheel', onScroll, false);
       document.addEventListener('mousemove', onMouse, false);
       var canvas = document.getElementById('unity-canvas'); // Reference the canvas element
       function onMouse() { canvas.style['pointer-events'] = 'auto'; }
       function onScroll() { canvas.style['pointer-events'] = 'none'; }
-    </script>
-     <script>
-      
     </script>
   </body>
 </html>
